@@ -1,0 +1,21 @@
+
+[1m[37mStand back while Meteorite does its thing[39m[22m
+
+[1m[37mDone installing smart packages[39m[22m
+
+[32mOk, everything's ready. Here comes Meteor![39m
+
+[[[[[ ~/meteorApp/workLate ]]]]]
+
+=> Started proxy.
+=> Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Started MongoDB.
+=> Starting your app...                       => Started your app.
+
+=> App running at: http://localhost:5555/
+[[[[[ ~/meteorApp/workLate ]]]]]
+
+=> Started proxy.
+=> Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Starting MongoDB... /                        => Starting MongoDB... -                        => Starting MongoDB... \                        => Starting MongoDB... |                        => Started MongoDB.
+=> Starting your app...                       => Started your app.
+
+=> App running at: http://localhost:5555/

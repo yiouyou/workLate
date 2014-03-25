@@ -1,0 +1,40 @@
+<head>
+  <title>workLate</title>
+</head>
+
+<body>
+  <div class="row-fluid">
+    <div class="span6 offset3">
+      {{> main}}
+    </div>
+  </div>
+</body>
+
+<template name="main">
+  <h1 class="text-right">加班留名，门锁有情</h1>
+  <blockquote>
+  	<p>Stay hungry. Stay foolish.</p>
+  	<small><cite title="Source Title">Steve Jobs</cite></small>
+  	<p>生命诚可贵，加班须谨慎。</p>
+  	<small><cite title="Source Title"><i class="icon-heart"></i></cite></small>
+  </blockquote>
+
+  <div class="tabbable tabs-left">
+  	<ul class="nav nav-tabs">
+  		<li class="active"><a href="#tab1" data-toggle="tab">19号楼</a></li>
+  		<li><a href="#tab2" data-toggle="tab">9号楼</a></li>
+  	</ul>
+  	<div class="tab-content">
+  		<div class="tab-pane active" id="tab1">
+  			<p class="lead">我在19号楼.</p>
+  			<p class="lead">最后的救命稻草：陈红艳 <i class="icon-thumbs-up"></i> 15811365004</p>
+  			{{> workersList_19}}
+  		</div>
+  		<div class="tab-pane" id="tab2">
+  			<p class="lead">我在9号楼.</p>
+  			<p class="lead">最后的救命稻草：陈红艳 <i class="icon-thumbs-up"></i> 15811365004</p>
+  			{{> workersList_9}}
+  		</div>
+  	</div>
+  </div>
+</template>

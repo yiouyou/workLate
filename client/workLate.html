@@ -1,0 +1,105 @@
+<!-- <template name="addWorker">
+  <form class="form-inline">
+    <input type="text" class="input-small" placeholder="姓名">
+    <div class="input-append">
+      <input type="text" class="input-mini" placeholder="几">
+      <span class="add-on">层</span>
+    </div>
+    <div class="input-append">
+      <input type="text" class="input-mini" placeholder="离开时间">
+      <span class="add-on">点</span>
+    </div>
+    <input type="text" class="input-small" placeholder="联系电话">
+    <button type="submit" class="btn btn-primary">GO!</button>
+  </form>
+</template>
+ -->
+
+<template name="workersList_19">
+   <table class="table table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>楼层</th>
+        <th>联系电话</th>
+        <th>预计离开时间</th>
+        <th>添加/删除</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each workers_19}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{floor}}</td>
+        <td>{{phone}}</td>
+        <td>{{time}}</td>
+        <td>
+          <button type="submit" class="btn btn-danger rm_worker"><i class="icon-minus icon-white"></i></button>
+        </td>
+      </tr>
+      {{/each}}
+      <tr>
+        <td>
+          <input type="text" class="input-small" name="name_19" value="" id="name_19">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="floor_19" value="" id="floor_19">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="phone_19" value="" id="phone_19">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="time_19" value="" id="time_19">
+        </td>
+        <td>
+          <button type="submit" class="btn btn-primary add_worker"><i class="icon-plus icon-white"></i></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</template>
+
+<template name="workersList_9">
+  <table class="table table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>楼层</th>
+        <th>联系电话</th>
+        <th>预计离开时间</th>
+        <th>添加/删除</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each workers_9}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{floor}}</td>
+        <td>{{phone}}</td>
+        <td>{{time}}</td>
+        <td>
+          <button type="submit" class="btn btn-danger rm_worker"><i class="icon-minus icon-white"></i></button>
+        </td>
+      </tr>
+      {{/each}}
+      <tr>
+        <td>
+          <input type="text" class="input-small" name="name_9" value="" id="name_9">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="floor_9" value="" id="floor_9">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="phone_9" value="" id="phone_9">
+        </td>
+        <td>
+          <input type="text" class="input-small" name="time_9" value="" id="time_9">
+        </td>
+        <td>
+          <button type="submit" class="btn btn-primary add_worker"><i class="icon-plus icon-white"></i></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</template>
+
